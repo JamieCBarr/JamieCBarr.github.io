@@ -39,11 +39,14 @@ justify-content: center;
     flex-wrap: wrap;
 }
 
-@media screen and (max-width : 870px){
+@media screen and (max-width : 1061px){
     #aboutMe article{
         justify-content: space-around;
     }
-
+    #bio{
+        margin-top: 0.5em;
+        order: 2;
+    }
 }
 
 #aboutMe ul{
