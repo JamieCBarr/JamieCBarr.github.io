@@ -29,6 +29,16 @@ h1, h2{
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
+
+#aboutMe img{
+    border: 3px dotted var(--contrast-color);
+}
+
+#aboutMe p{
+    border: 1px solid var(--highlight-color);
+    border-radius: 25px;
+}
+
 #skills, #skills *{
     background-color: var(--contrast-color);
     border-radius: 5px;
@@ -36,4 +46,15 @@ h1, h2{
 
 ul{
     list-style:square ;
+}
+
+#contactInfo{
+    border: 3px outset var(--highlight-color);
+    border-radius: 18px;
+    background-color: var(--contrast-color);
+    box-shadow: 20px 20px 45px 5px black;
+}
+
+#contactInfo *{
+    background-color: var(--contrast-color);
 }

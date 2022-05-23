@@ -8,8 +8,9 @@ nav {
     top: 0em;
     padding: 0.25em;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
 }
+
 header{
     margin-top: 3em;
     display: flex;
@@ -17,8 +18,13 @@ header{
 }
 
 section{
-    margin-top: 1em;
+    margin-top: 4em;
     padding-top: 2em;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
 }
 
 #aboutMeTitle{
@@ -27,11 +33,17 @@ justify-content: center;
 }
 
 #aboutMe article{
-    padding-left: 1em;
     display: flex;
     align-items: flex-start;
     justify-content: space-between;
     flex-wrap: wrap;
+}
+
+@media screen and (max-width : 870px){
+    #aboutMe article{
+        justify-content: space-around;
+    }
+
 }
 
 #aboutMe ul{
@@ -50,10 +62,13 @@ justify-content: center;
 }
 
 #aboutMe img{
+    margin: 1.5em 1em 0.5em 1em;
     width: 150px;
-    margin-right: 1em;
-    margin-top: 1.5em;
     border-radius: 100px;
+}
+
+#aboutMe p{
+    margin: 0 1em 0.5em;
 }
 
 #skills h3{
@@ -61,19 +76,21 @@ justify-content: center;
 }
 
 #projects {
+    margin-top: 15em;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
 #projects div{
-    width: 70%;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     flex-wrap: wrap;
 }
 
 #projects article{
+    margin-top: 1em;
+    width: 20em;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -84,7 +101,7 @@ justify-content: center;
 }
 
 #projects article img:hover{
-    height: 400px;
+    height: 350px;
 }
 
 #projects article p{
@@ -93,12 +110,14 @@ justify-content: center;
 }
 
 #contactInfo{
-    margin: 5em 0 45em;
+    margin: 12em 0 45em;
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding-bottom: 3em;
+    width: 21em;
+    align-self: center;
 }
-
 
 footer{
     margin: 2em 0em 1em 1em;
