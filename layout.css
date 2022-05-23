@@ -102,6 +102,7 @@ justify-content: center;
 
 #projects article img:hover{
     height: 350px;
+    max-width: 130%;
 }
 
 #projects article p{

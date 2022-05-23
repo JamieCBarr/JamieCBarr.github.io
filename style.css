@@ -25,7 +25,19 @@ a:hover{
     color: var(--highlight-color);
 }
 
-h1, h2{
+h1{
+    font-family: Whisper, cursive;
+    font-size: 300%;
+    font-stretch: extra-expanded;
+    text-shadow: 4px 8px 3px var(--contrast-color);
+}
+
+h1 .middleInitial{
+    font-family: Whisper, cursive;
+    font-size: 120%;
+}
+
+h2{
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
