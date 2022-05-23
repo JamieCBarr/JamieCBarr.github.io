@@ -14,7 +14,7 @@
 nav {
     background-color: var(--contrast-color);
 }
-nav a{
+nav *{
     background-color: var(--contrast-color);
 }
 
@@ -47,8 +47,9 @@ h2{
 }
 
 #aboutMe p{
-    border: 1px solid var(--highlight-color);
+    border: 2px solid var(--highlight-color);
     border-radius: 25px;
+    background-color: var(--contrast-color);
 }
 
 #skills, #skills *{
@@ -58,6 +59,14 @@ h2{
 
 ul{
     list-style:square ;
+}
+
+#projects p{
+    margin-top: 0.5rem;
+    padding-left: 0.5em;
+    border: 2px solid var(--contrast-color);
+    background-color: var(--contrast-color);
+    border-radius: 6px;
 }
 
 #contactInfo{
