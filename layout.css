@@ -17,6 +17,16 @@ header{
     justify-content: center;
 }
 
+h1{
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+h1 span{
+    margin: 0 10px;
+}
+
 section{
     margin-top: 4em;
     padding-top: 2em;

@@ -25,16 +25,16 @@ a:hover{
     color: var(--highlight-color);
 }
 
-h1{
+h1 span{
     font-family: Whisper, cursive;
-    font-size: 300%;
+    font-size: 50px;
     font-stretch: extra-expanded;
     text-shadow: 4px 8px 3px var(--contrast-color);
 }
 
 h1 .middleInitial{
     font-family: Whisper, cursive;
-    font-size: 120%;
+    font-size: 110%;
 }
 
 h2{
