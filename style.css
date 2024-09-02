@@ -79,3 +79,7 @@ ul{
 #contactInfo *{
     background-color: var(--contrast-color);
 }
+
+.hidden, .hidden *{
+opacity: 0;
+}
